@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+lines	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^    lines = raw_file.readlines()$/;"	variable	line:6
+event_list	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^event_list = [0]$/;"	variable	line:8
+time_list	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^time_list = [0]$/;"	variable	line:9
+first_date_check	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^first_date_check = True$/;"	variable	line:11
+last_event_time	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^last_event_time = 0$/;"	variable	line:12
+event_counter	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^event_counter = 0  # this counts multiple # of events in a second$/;"	variable	line:13
+first_date	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^        first_date = line[line.find(" ", 50) + 1: line.find(" ", 53)]$/;"	variable	line:18
+first_date_check	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^        first_date_check = False$/;"	variable	line:20
+trigger_code	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^    trigger_code = bin(int(line[line.find(" ", 7) + 1: line.find(" ", 9)], 16))$/;"	variable	line:22
+event_time	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^        event_time = time.strptime($/;"	variable	line:26
+event_counter	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^            event_counter = 0$/;"	variable	line:34
+last_event_time	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^        last_event_time = event_time$/;"	variable	line:38
+create_plot	/home/darwin/Coding/Cosmic-Ray-Sonification/raw_analyzer.py	/^def create_plot():$/;"	function	line:41
